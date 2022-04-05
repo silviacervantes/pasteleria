@@ -1,14 +1,79 @@
 /*body{background-color: bisque;}
-body{background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");}
+body{
+    background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");
+    background-blend-mode:hard-light ;
+}
 
 /*body{background-image: url("https://img.freepik.com/foto-gratis/waffles-belgas-frambuesas-arandanos-jarabe-desayuno-saludable-casero-espacio-copia-fondo-hormigon-ligero_136595-2445.jpg");}
 
 
 main{background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");}
 */
-header {background-color: rgb(223, 205, 221);padding: 20px;}
+header {padding: 20px;}
 
 /*CLASES*/
-.mapa{border:1px solid black; padding: 2px;}
-.sucursales{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
-.input_formulario{}
+.mapa{
+    border:1px solid black; 
+    padding: 2px;
+    width:80%;
+    max-width:500px;
+    min-width: 200px;
+    height:80%;
+    max-height: 500px;
+    min-height: 200px;
+
+}
+
+.sucursales{
+    display:flex;
+    padding:10px;
+    column-gap:10px;
+}
+.sucursal{
+    align-items: baseline; 
+    align-content: space-around;
+    padding:3px;
+    flex-grow: 1;
+}
+
+/*****************************/
+/* Barra de navegacion - menu*/
+/*****************************/
+.barra_superior{
+    background-color: rgb(223, 205, 221);
+    display:flex; 
+    text-align:center;
+    padding:10px;
+    column-gap:10px;
+}
+.item_bs{
+    align-items: baseline; 
+    align-content: space-around;
+    flex-grow: 1;
+    background-color: rgb(184, 136, 180);
+    padding:3px;
+    width: 20%;
+}
+.link_bs{
+    color: azure;
+}
+
+/*****************************/
+/*           PIE             */
+/*****************************/
+.pie{
+    background-color: rgb(223, 205, 221);
+    display:flex; 
+    text-align:center;
+    padding:10px;
+    column-gap:10px;
+    }
+
+/*****************************/
+/*      PORTADA              */
+/*****************************/
+.img_portada{
+    display:block;
+    margin:auto;
+    }
+
