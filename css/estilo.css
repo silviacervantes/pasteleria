@@ -1,8 +1,7 @@
 /*body{background-color: bisque;}*/
 body{
     background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");
-    opacity:0.4;
-    filter:alpha(opacity=40);
+    background-color: rgba(0,0,0,0.6);
   
 }
 
