@@ -1,8 +1,9 @@
 /*body{background-color: bisque;}*/
 body{
     background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");
-    filter:alpha(opacity=50);
-   
+    opacity:0.4;
+    filter:alpha(opacity=40);
+  
 }
 
 /*body{background-image: url("https://img.freepik.com/foto-gratis/waffles-belgas-frambuesas-arandanos-jarabe-desayuno-saludable-casero-espacio-copia-fondo-hormigon-ligero_136595-2445.jpg");}
