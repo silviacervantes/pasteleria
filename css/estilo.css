@@ -1,19 +1,21 @@
-/*body{background-color: bisque;}*/
 body{
-    /*background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");
-    background-color: rgba(255,255,255,1);
-    */
-  
+    margin:20px;
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
-/*body{background-image: url("https://img.freepik.com/foto-gratis/waffles-belgas-frambuesas-arandanos-jarabe-desayuno-saludable-casero-espacio-copia-fondo-hormigon-ligero_136595-2445.jpg");}
+header {padding: 10px;
+}
+h3{
+    color:darkmagenta;
+}
 
 
-main{background-image: url("https://img.freepik.com/vector-gratis/dulces-tortas-bollos-patrones-fisuras_101660-680.jpg");}
-*/
-header {padding: 20px;}
+
 
 /*CLASES*/
+.whatsapp {
+}
 .mapa{
     border:1px solid black; 
     padding: 2px;
@@ -38,6 +40,9 @@ header {padding: 20px;}
     flex-grow: 1;
 }
 
+.contacto{
+    margin-top: 30px;
+}
 /*****************************/
 /* Barra de navegacion - menu*/
 /*****************************/
@@ -46,6 +51,7 @@ header {padding: 20px;}
     display:flex; 
     text-align:center;
     padding:10px;
+    margin:-10px;
     column-gap:10px;
 }
 .item_bs{
@@ -78,4 +84,22 @@ header {padding: 20px;}
     display:block;
     margin:auto;
     }
+
+/*****************************/
+/*      FORMULARIO           */
+/*****************************/
+.formulario{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.input_formulario{
+    border-color:darkred;
+    border-width: 1px;
+}
+.div_formulario{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:10px;
+}
 
