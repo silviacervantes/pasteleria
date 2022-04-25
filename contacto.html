@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Estilo personal-->
+    <link rel="stylesheet" href="css/estilo.css">
+
+    <title>Pasteleria La Carolina</title>
+</head>
+<body >
+    <header>
+        <nav class="barra_superior">
+            <div class="item_bs"><a href="index.html" class="link_bs">Home</a></div>
+            <div class="item_bs"><a href="especialidades.html"class="link_bs">Especialidades</a></div>
+            <div class="item_bs"><a href="sucursales.html"class="link_bs">Sucursales</a></div>
+            <div class="item_bs"> <a href="registro.html"class="link_bs">Registro</a></div>
+        </nav>
+    </header>
+    <main>
+        <h3>Formulario de Registro</h3>
+            <div class="formulario">
+            <form action="post" name="f_registro">
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Nombre:</div>
+                    <div><input type="text" name="nombre"placeholder="Nombre" class="input_formulario"></div>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Apellido:</div>
+                    <div><input type="text"  name="apellido" placeholder="Apellido" class="input_formulario"></div>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Direccion:</div>
+                    <div><input type="text" name="direccion" placeholder="Direccion" class="input_formulario"></div>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Ciudad:</div>
+                    <div><input type="text" name="ciudad"placeholder="Ciudad"class="input_formulario"></div>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Codigo postal:</div>
+                    <div><input type="text" name="cp"placeholder="Codigo Postal" class="input_formulario"></div>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Fecha de Nacimiento:</div>
+                    <div><input type="date" name="f_nac"class="input_formulario"></div>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Genero:</div>
+                    <div>
+                        <input type="radio" name="genero" value="f"class="input_formulario_radio"> Femenino <br>
+                        <input type="radio" name="genero" value="m"class="input_formulario_radio"> Masculino <br>
+                        <input type="radio" name="genero" value="o"class="input_formulario_radio"> Otro
+                    </div><br>
+                </div>
+                <div class="div_formulario">
+                    <div style=" text-align: right;">Comentarios:</diV>
+                    <div><textarea name = "comentario"></div>
+                </div>
+                <div>
+                    <input type="submit" name="Enviar" class="boton_registro">
+                </div>
+            </form>
+            </div>
+ 
+                
+
+        
+    </main>
+    </body>
+    <footer>
+        <p class="pie"> Copyright © 2022 Silvia Cervantes - Curso Full Stack Python</p>
+    </footer>
+    </body>
+</html>
