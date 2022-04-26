@@ -154,8 +154,9 @@ h3{
     background: white;
     padding: 20px;
     border: 0.5px rgb(179, 177, 177) solid;
-    border-radius: 10%;
-    border-top: 5px blue solid;
+    border-radius: 15%;
+    border-top: 5px rgb(160, 60, 143) solid;
+    align-items: center;    
 }
 
 .especialidades:nth-of-type(1) {
@@ -172,4 +173,9 @@ h3{
 
 .especialidades:nth-of-type(4) {
     grid-area: esp4;
+}
+.img_especialidades{
+    
+    /* width: 50px;
+    height: 50px; */
 }
