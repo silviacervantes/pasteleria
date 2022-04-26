@@ -10,7 +10,31 @@ h3{
     color:darkmagenta;
 }
 
+/* Carrusel */
+li {
+    /* padding: 0;
+    margin: 0; */
+    list-style: none outside;
+}
 
+
+.slide div {
+    opacity: 0; /*Ocultamos todos los <li>*/
+    transition: opacity .5s;
+    position: relative; /*Posicionamos en absoluto los <li>*/
+    /*left: 0px;
+    top: 0px;
+    margin:50px;
+    padding:50px; */
+    border:2px solid red;
+    background:#fff;
+}
+.slide div:first-child {
+    opacity: 1; /*Mostramos el primer <li>*/
+}
+.slide div:target {
+    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
+}
 
 
 /*CLASES*/
