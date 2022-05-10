@@ -147,6 +147,8 @@ h3{
 }
 .especialidades_parrafo{
     display:none;
+    border-radius: 15%;
+    padding:15%;
 }
 
 .especialidades:nth-of-type(1) {
