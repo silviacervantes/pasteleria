@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/estilo.css">
     <!-- fontawesome-->
     <script src="https://kit.fontawesome.com/bae02dc803.js" crossorigin="anonymous"></script>    
+    <script src="js/js.js"></script>
     <link rel="icon" class="fa-solid fa-cake-candles">
     
     <title>Pasteleria La Carolina</title>
@@ -24,10 +25,17 @@
     </header>
     <main>
         <div class="contenedor">
-            <div class="especialidades">
+            <div class="especialidades" style="background-image:url('img/torta.png');"  onmouseover="return muestraParrafo(especialidades1);" onmouseout="return ocultaParrafo('img/torta.png',especialidades1);">
                 <h3 class="especialidades_titulo">Tortas y cupcakes</h3>
-                <p class="especialidades_parrafo"></p>
-                <img src="img/torta.png">
+                <p class="especialidades_parrafo" id="especialidades1">
+                    Especialistas en la realizacion de tortas personalizadas, a pedido. Para todo tipo de eventos.<br>
+                        * Casamientos<br>
+                        * Cumpleaños<br>
+                        * Aniversarios<br>
+                        * Baby Shower<br>
+                        * Eventos de todo tipo<br>
+                    Solicite el catalogo!
+                </p>
             </div>
             <div class="especialidades">
                 <h3 class="especialidades_titulo">Masitas finas</h3>
