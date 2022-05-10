@@ -1,12 +1,10 @@
 body{
     margin:20px;
+    margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
     background-image: url("../img/fondo3.jpg");
     background-repeat:repeat;
 
-}
-.banner{
-    
 }
 
 header {padding: 10px;
@@ -15,36 +13,9 @@ h3{
     color:darkmagenta;
 }
 
-/* Carrusel */
-li {
-    /* padding: 0;
-    margin: 0; */
-    list-style: none outside;
-}
-
-
-.slide div {
-    opacity: 0; /*Ocultamos todos los <li>*/
-    transition: opacity .5s;
-    position: relative; /*Posicionamos en absoluto los <li>*/
-    /*left: 0px;
-    top: 0px;
-    margin:50px;
-    padding:50px; */
-    border:2px solid red;
-    background:#fff;
-}
-.slide div:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
-}
-.slide div:target {
-    opacity: 1; /*Mostramos el <li> al que apunta el enlace*/
-}
-
 
 /*CLASES*/
-.whatsapp {
-}
+
 .mapa{
     border:1px solid black; 
     padding: 2px;
@@ -76,7 +47,7 @@ li {
     display:flex; 
     text-align:center;
     padding:10px;
-    margin:-10px;
+    margin:0px;
     column-gap:10px;
 }
 .item_bs{
@@ -88,21 +59,7 @@ li {
     width: 20%;
 }
 
-@media only screen and (max-width: 768px) {
-    /*menu */
-    .barra_superior{ 
-        flex-direction:column;
-    }
-    .item_bs{ 
-        width: 100%;
-        margin-bottom:10px;
-    }
-    /* sucursales*/
-    .sucursales{
-        flex-direction:column;
-    }
 
-}
 
 
 .link_bs{
@@ -180,7 +137,7 @@ li {
 }
 
 .especialidades {
-    background: white;
+    /*background: white;*/
     padding: 20px;
     border: 0.5px rgb(179, 177, 177) solid;
     border-radius: 15%;
@@ -203,7 +160,25 @@ li {
 .especialidades:nth-of-type(4) {
     grid-area: esp4;
 }
-.img_especialidades{
-    /* width: 50px;
-    height: 50px; */
+
+/* MAX-WIDTH: 768px*/
+
+@media only screen and (max-width: 768px) {
+    /*menu */
+    .barra_superior{ 
+        flex-direction:column;
+    }
+    .item_bs{ 
+        width: 100%;
+        margin-bottom:10px;
+    }
+    .contenedor {
+        grid-template-areas:
+        "esp1   esp1    esp1"
+        "esp2   esp2    esp2"
+        "esp3   esp3    esp3"
+        "esp4   esp4    esp4";
+    }
+    
+
 }
