@@ -63,6 +63,19 @@ h3{
 .banner{
     background-image: url(../img/banner1.jpg);
 }
+.logotipo{
+    width: 100px;
+    height: 100px;
+    animation-name: logo;
+    animation-duration: 4s;
+    position: relative; 
+    animation-delay: 0s;
+}
+/* Para el logotipo */
+@keyframes logo {
+    0%   {left:800px; top:0px;}
+    100% {left:0px; top:0px;}
+}
 
 
 .link_bs{
