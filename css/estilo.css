@@ -203,17 +203,20 @@ h3{
     }
 
     .contenedor {
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns: repeat(1,0fr);
         grid-template-rows: repeat(2,1fr);
         grid-template-areas:
         "esp1 esp2"
         "esp3 esp4";
     }
     .sucursales{
-        /* flex-direction: column;*/
-        width: 160px;
-        height: 160px;
-    }    
+        flex-direction: column;
+    }
+
+    .especialidades {
+    width: 310px;
+    height: 310px;
+    }
 
 }
 
@@ -235,6 +238,11 @@ h3{
         "esp3"
         "esp4";
     }
+    .especialidades {
+        width: 70%;
+        height: 70%px;
+    }
+
     .sucursales{
         flex-direction: column;
     } 
