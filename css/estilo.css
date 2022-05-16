@@ -161,8 +161,8 @@ h3{
     background-position: center; 
     background-repeat: no-repeat;
     /* ancho y alto verificar */
-    width: 350px;
-    height: 350px;
+    width: 310px;
+    height: 310px;
 }
 .especialidades_parrafo{
     display:none;
@@ -191,18 +191,23 @@ h3{
 @media only screen and (max-width: 850px) {
     /*menu */
     .barra_superior{ 
-        /*flex-direction:column;*/
+        /* flex-direction:column; */
     }
     .item_bs{ 
         width: 25%;
         margin-bottom:10px;
     }
+    /* Para el logotipo */
+
+    @keyframes logo {
+    0%   {left:700px; top:0px;}
+    100% {left:0px; top:0px;}
+    }
+
     .contenedor {
         grid-template-areas:
-        "esp1"
-        "esp2"
-        "esp3"
-        "esp4";
+        "esp1 esp2"
+        "esp3 esp4";
     }
     .sucursales{
         flex-direction: column;
@@ -228,6 +233,11 @@ h3{
     }
     .sucursales{
         flex-direction: column;
-    }    
+    } 
+    
+    @keyframes logo {
+        0%   {left:430px; top:0px;}
+        100% {left:0px; top:0px;}
+    }   
 
 }
