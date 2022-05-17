@@ -102,6 +102,20 @@ h3{
     margin:auto;
     }
 
+.portada{
+        width: 100px;
+        height: 100px;
+        animation-name: animacion_portada;
+        animation-duration: 4s;
+        position: relative; 
+        animation-delay: 0s;
+    }
+/* Para animacion portada */
+@keyframes animacion_portada {
+    0%   {left:800px; top:0px;}
+    100% {left:0px; top:0px;}
+}
+    
 /*****************************/
 /*      FORMULARIO           */
 /*****************************/
