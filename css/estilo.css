@@ -103,19 +103,91 @@ h3{
     }
 
 .portada{
+        width: 200px;
+        height: 200px;
+        /*animation-name: animacion_portada;
+        animation-duration: 4s;
+        position: relative; 
+        animation-delay: 0s;*/
+        background-color: blue;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .portada1{
         width: 100px;
         height: 100px;
         animation-name: animacion_portada;
         animation-duration: 4s;
-        position: relative; 
+        position: relative;
         animation-delay: 0s;
-    }
+        margin:0px;
+        top: 0px;
+        background-color: rgb(255, 0, 21);
+    }   
+    .portada2{
+        width: 100px;
+        height: 100px;
+        animation-name: animacion_portada2;
+        animation-duration: 4s;
+        position: relative;
+        animation-delay: 0s;
+        margin-left:100px;
+        top: -100px;
+        background-color: rgb(43, 255, 0);
+    }   
+    
+    .portada3{
+        width: 100px;
+        height: 100px;
+        animation-name: animacion_portada3;
+        animation-duration: 4s;
+        position: relative;
+        animation-delay: 0s;
+        margin-left:100px;
+        top: -100px;
+        background-color: rgb(57, 109, 93);
+    }   
+    
+    .portada4{
+        width: 100px;
+        height: 100px;
+        animation-name: animacion_portada4;
+        animation-duration: 4s;
+        position: relative;
+        animation-delay: 0s;
+        margin-left:0px;
+        top: -200px;
+        background-color: rgb(126, 144, 177);
+    } 
+    .portada5{
+        width: 100px;
+        height: 100px;
+        animation-duration: 4s;
+        position: relative;
+        animation-delay: 0s;
+        margin:auto;
+        top: -350px;
+        background-color: rgb(124, 114, 114);
+    } 
 /* Para animacion portada */
 @keyframes animacion_portada {
-    0%   {left:800px; top:0px;}
-    100% {left:0px; top:0px;}
+    0%   {right: -50px; top:50px}
+    100% {right:0px; top: 0px;}
 }
-    
+@keyframes animacion_portada2 {
+    0%   {margin-left: 50px; top:-50px}
+    100% {margin-left:100px; top: -100px;}
+}
+@keyframes animacion_portada3 {
+    0%   {margin-left: 50px; top:-150px}
+    100% {margin-left:100px; top: -100px;}
+}
+@keyframes animacion_portada4 {
+    0%   {right: -50px; top:-250px}
+    100% {right:0px; top: -200px;}
+}
+
+
 /*****************************/
 /*      FORMULARIO           */
 /*****************************/
