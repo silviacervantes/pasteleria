@@ -103,88 +103,95 @@ h3{
     }
 
 .portada{
-        width: 200px;
-        height: 200px;
-        /*animation-name: animacion_portada;
-        animation-duration: 4s;
-        position: relative; 
-        animation-delay: 0s;*/
-        background-color: blue;
+        width: 540px;
+        height: 400px;
+        background-color: rgb(194, 120, 157); 
+        background-image: url(../img/fondo2.jpg);
         margin-left:auto;
         margin-right:auto;
+        
     }
     .portada1{
-        width: 100px;
-        height: 100px;
+        width: 270px;
+        height: 190px;
         animation-name: animacion_portada;
         animation-duration: 4s;
         position: relative;
         animation-delay: 0s;
         margin:0px;
         top: 0px;
-        background-color: rgb(255, 0, 21);
+        background-image: url("../img/portada_1.gif");
+        background-repeat:no-repeat;
+        
     }   
     .portada2{
-        width: 100px;
-        height: 100px;
+        width: 270px;
+        height: 190px;
         animation-name: animacion_portada2;
         animation-duration: 4s;
         position: relative;
         animation-delay: 0s;
-        margin-left:100px;
-        top: -100px;
-        background-color: rgb(43, 255, 0);
+        margin-left:270px;
+        top: -190px;
+        background-image: url("../img/portada_2.gif");
+        background-repeat:no-repeat;
     }   
     
     .portada3{
-        width: 100px;
-        height: 100px;
+        width: 270px;
+        height: 190px;
         animation-name: animacion_portada3;
         animation-duration: 4s;
         position: relative;
         animation-delay: 0s;
-        margin-left:100px;
-        top: -100px;
-        background-color: rgb(57, 109, 93);
+        margin-left:270px;
+        top: -170px;
+        /* background-color: rgb(57, 109, 93); */
+        background-image: url("../img/portada_3.gif");
+        background-repeat:no-repeat;
     }   
     
     .portada4{
-        width: 100px;
-        height: 100px;
-        animation-name: animacion_portada4;
+        width: 270px;
+        height: 190px;
+        animation-name: animacion_portada4; 
         animation-duration: 4s;
         position: relative;
         animation-delay: 0s;
         margin-left:0px;
-        top: -200px;
-        background-color: rgb(126, 144, 177);
+        top: -360px;
+        /* background-color: rgb(126, 144, 177);*/
+        background-image: url("../img/portada_4.gif");
+        background-repeat:no-repeat;
     } 
     .portada5{
-        width: 100px;
-        height: 100px;
+        width: 368px;
+        height: 190px;
         animation-duration: 4s;
         position: relative;
         animation-delay: 0s;
         margin:auto;
-        top: -350px;
-        background-color: rgb(124, 114, 114);
+        top: -645px;
+        background-color: rgb(255, 255, 255);
+        background-image: url("../img/titulo.gif");
+        background-repeat:no-repeat;
     } 
 /* Para animacion portada */
 @keyframes animacion_portada {
-    0%   {right: -50px; top:50px}
+    0%   {right: -135px; top:155px}
     100% {right:0px; top: 0px;}
 }
 @keyframes animacion_portada2 {
-    0%   {margin-left: 50px; top:-50px}
-    100% {margin-left:100px; top: -100px;}
+    0%   {margin-left: 135px; top:-95px}
+    100% {margin-left:270px; top: -190px;}
 }
 @keyframes animacion_portada3 {
-    0%   {margin-left: 50px; top:-150px}
-    100% {margin-left:100px; top: -100px;}
+    0%   {margin-left: 135px; top:-265px}
+    100% {margin-left:270px; top: -170px;}
 }
 @keyframes animacion_portada4 {
-    0%   {right: -50px; top:-250px}
-    100% {right:0px; top: -200px;}
+    0%   {right: -135px; top:-435px}
+    100% {right:0px; top: -360px;}
 }
 
 
