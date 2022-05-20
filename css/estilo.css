@@ -278,7 +278,9 @@ h3{
     grid-area: esp4;
 }
 
-/* MAX-WIDTH: 850px*/
+/**************************/
+/*    MAX-WIDTH: 850px    */
+/**************************/
 
 @media only screen and (max-width: 850px) {
     /*menu */
@@ -303,15 +305,22 @@ h3{
     }
     .sucursales{
         flex-direction: column;
+        margin: auto;
     }
 
     .especialidades {
     width: 310px;
     height: 310px;
+    margin:auto;
     }
+
+   
 
 }
 
+/**************************/
+/*    MAX-WIDTH: 650px    */
+/**************************/
 @media only screen and (max-width: 650px) {
     /*menu */
     .barra_superior{ 
@@ -337,11 +346,38 @@ h3{
 
     .sucursales{
         flex-direction: column;
+        margin:auto;
     } 
     
     @keyframes logo {
         0%   {left:430px; top:0px;}
         100% {left:0px; top:0px;}
+    }
+    .portada{
+        width: 370px;
+        height: 222px;
+        /* background-image: url(../img/logo_portada_1.gif);*/
+        margin:auto;
+        background-repeat: no-repeat;
+        
+    }
+    .portada1{
+        visibility: hidden;        
     }   
+    .portada2{
+        visibility: hidden;    
+    }   
+    
+    .portada3{
+        visibility: hidden;    
+    }   
+    
+    .portada4{
+        visibility: hidden;    
+    } 
+    .portada5{
+        /*visibility: hidden;    */
+        top: -700px;
+    }    
 
 }
